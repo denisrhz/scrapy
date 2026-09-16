@@ -1,0 +1,8 @@
+# Рубрики, которых нет в temp/asia_cat.txt, но которые заметно представлены
+# в нашем каталоге. Формат тот же: name;slug;keywords
+teen;teen;teen
+pussy;pussy;pussy
+ass;ass;ass
+jav;jav;jav|(av idol)|(avidol)
+uncensored;uncensored;uncensored
+mature;mature;mature

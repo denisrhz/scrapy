@@ -1,0 +1,24 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Local secrets
+.env
+.env.*
+!.env.example
+
+# Local SQLite databases
+db/*.db
+db/*.db-shm
+db/*.db-wal
+db/*.backup-*
+
+# Run logs
+*.log
