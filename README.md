@@ -1,4 +1,4 @@
-# XVideos Scraper CLI
+# example.com Scraper CLI
 
 Async scraper for video listings and model profiles into SQLite. Exports to
 pipe-delimited TXT and translates title/description into other languages.
@@ -29,7 +29,7 @@ Back up before changing the schema: `cp db/database.db db/database.db.backup-$(d
 ## Scraping
 
 ```bash
-uv run python cli.py parse https://www.xvideos.com/best-of-gay/2015-01
+uv run python cli.py parse https://www.example.com/best-of-gay/2015-01
 uv run python cli.py parse --urls-file urls.txt --limit 100 --max-pages 3 --concurrency 4
 uv run python cli.py parse <url> --dry-run   # no DB writes, first 3 videos
 ```
@@ -80,7 +80,7 @@ uv run python -m scripts.build_categories --min-video-count 5 --model deepseek-v
 ```
 
 Clusters tags by n-grams, optionally names clusters via AI, and extends keywords
-through the XVideos suggestions API. Output goes to `~/Exports/scrapy/categories/`.
+through the example.com suggestions API. Output goes to `~/Exports/scrapy/categories/`.
 
 ## Lint
 
